@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "NailStudio Pro",
+    "slug": "nailstudio-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "nailstudio-pro",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nailstudio.pro"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.nailstudio.pro",
+      "softwareKeyboardLayoutMode": "pan",
+      "statusBar": {
+        "translucent": false,
+        "backgroundColor": "#F8F0F2"
+      },
+      "navigationBar": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "436cc224-5f58-4e19-a2c1-7e369a4bd43c"
+      }
+    }
+  }
+}
